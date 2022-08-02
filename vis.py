@@ -49,8 +49,8 @@ def generate_masks_for_image(image_name, image_path, masks_info, output_director
         #print(output_directory + image_name)
         # cv2.imwrite(output_directory+image_name,img)
         data = asarray(img)
-        small_lable = cv2.resize(data, (854,
-                                    480),
+        small_lable = cv2.resize(data, (1920,
+                                    1080),
                              interpolation=cv2.INTER_NEAREST)
 
         small_lable = (np.array(small_lable)).astype('uint8')
