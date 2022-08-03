@@ -557,28 +557,6 @@ def json_to_masks(filename,output_directory,object_keys=None):
         #generate_masks_per_seq(image_name, image_path, masks_info, full_path)
         generate_masks_for_image(image_name, image_path, masks_info, full_path,object_keys) #this is for unique id for each object throughout the video
 
-def json_to_masks_new(filename,output_directory,object_keys=None):
-    import os
-    os.makedirs(output_directory, exist_ok=True)
-    import json
-    f = open(filename)
-    # returns JSON object as a dictionary
-    data = json.load(f)
-    #sort based on the folder name (to guarantee to start from its first frame of each sequence)
-    data = sorted(data["video_annotations"], key=lambda k: k['image']['image_path'])
-    # Iterating through the json list
-    full_path=""
-    for datapoint in data:
-        image_name = datapoint["image"]["name"]
-        image_path = datapoint["image"]["image_path"]
-        masks_info = datapoint["annotations"]
-        full_path =os.path.join(output_directory,image_path.split('/')[0]+'/') #until the end of sequence name
-        #print(full_path)
-        os.makedirs(full_path,exist_ok= True)
-        #generate_masks_stage3(image_name, image_path, masks_info, full_path) #this is for saving the same name (delete the if statemnt as well)
-        #generate_masks_per_seq(image_name, image_path, masks_info, full_path)
-        generate_masks_for_image(image_name, image_path, masks_info, full_path,object_keys) #this is for unique id for each object throughout the video
-
 
 def folder_of_jsons_to_masks(input_directory,output_directory):
     import glob
@@ -604,34 +582,6 @@ def folder_of_jsons_to_masks(input_directory,output_directory):
 
         data = pd.DataFrame(objects_keys.items(), columns=['Object_name', 'unique_index'])
         data['video_id'] = json_file.split('/')[-1].split('.')[0]
-        data.to_csv(os.path.join(output_directory,'data_mapping.csv'), index=False,header=['object_name', 'unique_index','video_id'])
-
-def folder_of_jsons_to_masks_new(input_directory,output_directory):
-    import glob
-    import csv
-    import pandas as pd
-    import os
-    objects_keys = {}
-    
-    if os.path.exists(os.path.join(output_directory,'data_mapping.csv')):
-        os.remove(os.path.join(output_directory,'data_mapping.csv'))
-        
-    for json_file in sorted(glob.glob(os.path.join(input_directory ,'*.json'))):
-        objects_keys = {}
-        objects = do_stats_stage2_jsons_single_file_new(json_file)
-        #print('objects: ',objects)
-        i = 1
-        for key,_ in objects:
-            objects_keys[key] = i
-            i=i+1
-        max_count = max(objects_keys.values())
-        print(f'unique object count of {json_file.split("/")[-1]} is {max_count}')
-        json_to_masks_new(json_file,output_directory,objects_keys)
-
-
-        data = pd.DataFrame(objects_keys.items(), columns=['Object_name', 'unique_index'])
-        data['video_id'] = json_file.split('/')[-1].split('.')[0]
-        
         data.to_csv(os.path.join(output_directory,'data_mapping.csv'), index=False,header=['object_name', 'unique_index','video_id'])
 
 def generate_videos_from_all_masks(input_directory,output_directory,frame_rate):
@@ -1992,65 +1942,6 @@ def do_stats_stage2_jsons_single_file(file):
 
     return objects_counts.most_common()
 
-def do_stats_stage2_jsons_single_file_new(file):
-
-    import json
-    import glob
-    import collections, functools, operator
-    from PIL import Image
-    from scipy.stats import norm
-
-    total_number_of_images=0
-    total_number_of_objects = 0
-    total_number_of_seq = 0
-    total_number_objects_per_image=[]
-    objects=[]
-    infile=file
-    f = open(infile)
-    # returns JSON object as a dictionary
-    data = json.load(f)
-
-    #sort based on the folder name (to guarantee to start from its first frame of each sequence)
-    data = sorted(data["video_annotations"], key=lambda k: k['image']['image_path'])
-
-    total_number_of_images = total_number_of_images + len(data)
-
-    # Iterating through the json list
-    index = 0
-    full_path=""
-    prev_seq = ""
-    obj_per_image=0
-    for datapoint in data:
-        obj_per_image=0 # count number of objects per image
-        seq = datapoint['image']['subsequence']
-        if (seq != prev_seq):
-            total_number_of_seq = total_number_of_seq + 1
-            prev_seq = seq
-        image_name = datapoint["image"]["name"]
-        image_path = datapoint["image"]["image_path"]
-        masks_info = datapoint["annotations"]
-        #generate_masks(image_name, image_path, masks_info, full_path) #this is for saving the same name (delete the if statemnt as well)
-        entities = masks_info
-        for entity in entities: #loop over each object
-            object_annotations = entity["segments"]
-            if not len(object_annotations) == 0: #if there is annotation for this object, add it
-                total_number_of_objects = total_number_of_objects + 1
-                objects.append(entity["name"])
-                obj_per_image = obj_per_image + 1
-        total_number_objects_per_image.append(obj_per_image)
-
-
-    #print(objects)
-    objects_counts = collections.Counter(objects)
-    import pandas as pd
-
-    df = pd.DataFrame.from_dict(objects_counts, orient='index').reset_index()
-    #print(df)
-    #print("Number of sequences: ", (total_number_of_seq))
-    #print("Number of images (masks): ", (total_number_of_images))
-    #print("Number of unique objects: ", len(set(objects)))
-
-    return objects_counts.most_common()
 
 def check_frame_rate(folder):
     import glob
@@ -2949,7 +2840,8 @@ def main_f():
     
     json_files_path = '/home/ru20956/Downloads/visor_release_v3_train_val_test/sample_json'
     output_directory ='/home/ru20956/Downloads/out_pngs/sample_masks'
-    
+    input_resolution = (1920,1080)
+    output_resolution= (200,100)
     
 
 
@@ -2958,7 +2850,7 @@ def main_f():
     #do_stats_stage2_jsons('annotations_filtered_polygons_formatted/')
     
 
-    folder_of_jsons_to_masks_new(json_files_path, output_directory)
+    folder_of_jsons_to_masks_new(json_files_path, output_directory,input_resolution,output_resolution)
     #split_seq_into_2_masks_pairs(batch+"/masks")
     #split_seq_into_2_masks_pairs_test(batch+"/masks")
     #delete_less_than_n_v2(5,200,batch+'/pairs_masks')
