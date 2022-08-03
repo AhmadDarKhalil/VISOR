@@ -572,7 +572,7 @@ def json_to_masks_new(filename,output_directory,object_keys=None):
         image_name = datapoint["image"]["name"]
         image_path = datapoint["image"]["image_path"]
         masks_info = datapoint["annotations"]
-        full_path =output_directory+image_path.split('/')[0]+'/' #until the end of sequence name
+        full_path =os.path.join(output_directory,image_path.split('/')[0]+'/') #until the end of sequence name
         #print(full_path)
         os.makedirs(full_path,exist_ok= True)
         #generate_masks_stage3(image_name, image_path, masks_info, full_path) #this is for saving the same name (delete the if statemnt as well)
@@ -604,11 +604,7 @@ def folder_of_jsons_to_masks(input_directory,output_directory):
 
         data = pd.DataFrame(objects_keys.items(), columns=['Object_name', 'unique_index'])
         data['video_id'] = json_file.split('/')[-1].split('.')[0]
-        if not os.path.isfile(batch+'_data_mapping.csv'):
-            data.to_csv(batch+'_data_mapping.csv', index=False,header=['Object_name', 'unique_index','video_id'])
-        else:
-            data.to_csv(batch+'_data_mapping.csv',mode='a', header=False,index=False)
-
+        data.to_csv(os.path.join(output_directory,'data_mapping.csv'), index=False,header=['object_name', 'unique_index','video_id'])
 
 def folder_of_jsons_to_masks_new(input_directory,output_directory):
     import glob
@@ -616,7 +612,11 @@ def folder_of_jsons_to_masks_new(input_directory,output_directory):
     import pandas as pd
     import os
     objects_keys = {}
-    for json_file in sorted(glob.glob(input_directory + '/*.json')):
+    
+    if os.path.exists(os.path.join(output_directory,'data_mapping.csv')):
+        os.remove(os.path.join(output_directory,'data_mapping.csv'))
+        
+    for json_file in sorted(glob.glob(os.path.join(input_directory ,'*.json'))):
         objects_keys = {}
         objects = do_stats_stage2_jsons_single_file_new(json_file)
         #print('objects: ',objects)
@@ -631,11 +631,8 @@ def folder_of_jsons_to_masks_new(input_directory,output_directory):
 
         data = pd.DataFrame(objects_keys.items(), columns=['Object_name', 'unique_index'])
         data['video_id'] = json_file.split('/')[-1].split('.')[0]
-        if not os.path.isfile(batch+'_data_mapping.csv'):
-            data.to_csv(batch+'_data_mapping.csv', index=False,header=['Object_name', 'unique_index','video_id'])
-        else:
-            data.to_csv(batch+'_data_mapping.csv',mode='a', header=False,index=False)
-
+        
+        data.to_csv(os.path.join(output_directory,'data_mapping.csv'), index=False,header=['object_name', 'unique_index','video_id'])
 
 def generate_videos_from_all_masks(input_directory,output_directory,frame_rate):
     import glob
@@ -2950,23 +2947,18 @@ def main_f():
 
     #json_to_masks('completed_annotations_stage2/00084_P04_06_Part_001.json','sample3/masks/')
     
-    global batch
-    json_files_path = '/home/ru20956/Downloads/visor_release_v3_train_val_test/val/'
-    batch ='/home/ru20956/Downloads/out_pngs/original_masks'
+    json_files_path = '/home/ru20956/Downloads/visor_release_v3_train_val_test/sample_json'
+    output_directory ='/home/ru20956/Downloads/out_pngs/sample_masks'
     
-    if os.path.exists(batch+'_repos.txt'):
-        os.remove(batch+'_repos.txt')
-    if os.path.exists(batch+'_int_data_mapping.csv'):
-        os.remove(batch+'_int_data_mapping.csv')
-    if os.path.exists(batch+'_data_mapping.csv'):
-        os.remove(batch+'_data_mapping.csv')
+    
+
 
     
     #combine_all_parts_jsons_torento('completed_annotations_stage2/')
     #do_stats_stage2_jsons('annotations_filtered_polygons_formatted/')
     
 
-    folder_of_jsons_to_masks_new(json_files_path, batch+'/masks/')
+    folder_of_jsons_to_masks_new(json_files_path, output_directory)
     #split_seq_into_2_masks_pairs(batch+"/masks")
     #split_seq_into_2_masks_pairs_test(batch+"/masks")
     #delete_less_than_n_v2(5,200,batch+'/pairs_masks')

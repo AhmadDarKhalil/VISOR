@@ -1,0 +1,1433 @@
+Object_name,unique_index,video_id
+right hand,1,P01_107
+left hand,2,P01_107
+soy milk,3,P01_107
+cup,4,P01_107
+food container,5,P01_107
+cereal box,6,P01_107
+cereal,7,P01_107
+bread,8,P01_107
+cupboard,9,P01_107
+cereal bag,10,P01_107
+tea towel/dish towel,11,P01_107
+fridge,12,P01_107
+tap,13,P01_107
+sink,14,P01_107
+drawer,15,P01_107
+cutlery tray,16,P01_107
+spoon,17,P01_107
+bin/garbage can/recycling bin,18,P01_107
+plate,19,P01_107
+knife,20,P01_107
+door,21,P01_107
+left hand,1,P02_02
+right hand,2,P02_02
+sink,3,P02_02
+left glove,4,P02_02
+tap,5,P02_02
+right glove,6,P02_02
+sponge,7,P02_02
+drainer,8,P02_02
+water,9,P02_02
+glass,10,P02_02
+knife,11,P02_02
+plate,12,P02_02
+mug,13,P02_02
+bag,14,P02_02
+lid,15,P02_02
+bin/garbage can/recycling bin,16,P02_02
+spoon,17,P02_02
+water filter,18,P02_02
+drawer,19,P02_02
+bottle,20,P02_02
+bag roll,21,P02_02
+liquid,22,P02_02
+right hand,1,P02_09
+left hand,2,P02_09
+pan,3,P02_09
+hob/cooktop/stovetop,4,P02_09
+wooden spoon,5,P02_09
+meat,6,P02_09
+glass,7,P02_09
+spoon,8,P02_09
+sink,9,P02_09
+tap,10,P02_09
+bowl,11,P02_09
+onion,12,P02_09
+chopping board,13,P02_09
+left glove,14,P02_09
+lid,15,P02_09
+right glove,16,P02_09
+knife,17,P02_09
+flour,18,P02_09
+drainer,19,P02_09
+cupboard,20,P02_09
+mixture,21,P02_09
+water,22,P02_09
+sponge,23,P02_09
+meat packaging,24,P02_09
+oil bottle,25,P02_09
+flour package,26,P02_09
+drawer,27,P02_09
+trash bin,28,P02_09
+kettle,29,P02_09
+towel,30,P02_09
+yeast can,31,P02_09
+salt,32,P02_09
+chicken stock,33,P02_09
+washing liquid,34,P02_09
+yeast,35,P02_09
+plate,36,P02_09
+sugar,37,P02_09
+salt bottle,38,P02_09
+olive oil,39,P02_09
+oven,40,P02_09
+fork,41,P02_09
+fridge,42,P02_09
+onion peel,43,P02_09
+stock,44,P02_09
+cleaning liquid,45,P02_09
+oil,46,P02_09
+sink plug,47,P02_09
+sugar jar,48,P02_09
+garlic bottle,49,P02_09
+herb,50,P02_09
+water filter,51,P02_09
+tray,52,P02_09
+pepper package,53,P02_09
+hot water,54,P02_09
+meat package,55,P02_09
+pepper lid,56,P02_09
+plastic bowl,57,P02_09
+pepper,58,P02_09
+chicken stock package,59,P02_09
+stock wrap,60,P02_09
+herb bottle,61,P02_09
+trash can,62,P02_09
+can cover,63,P02_09
+cap,64,P02_09
+washing up soap,65,P02_09
+onion end,66,P02_09
+paprika,67,P02_09
+tongs,68,P02_09
+stand,69,P02_09
+surface,70,P02_09
+bits,71,P02_09
+onion bag,72,P02_09
+plastic cover,73,P02_09
+box,74,P02_09
+garlic,75,P02_09
+glove,76,P02_09
+liquid,77,P02_09
+washing up liquid,78,P02_09
+right hand,1,P02_12
+left hand,2,P02_12
+tray,3,P02_12
+dough,4,P02_12
+bowl,5,P02_12
+dough ball,6,P02_12
+plate,7,P02_12
+pan,8,P02_12
+oil,9,P02_12
+spoon,10,P02_12
+pie,11,P02_12
+hob,12,P02_12
+meat mix,13,P02_12
+meat,14,P02_12
+oil bottle,15,P02_12
+cupboard,16,P02_12
+drawer,17,P02_12
+jar,18,P02_12
+tupperware,19,P02_12
+oven,20,P02_12
+towel,21,P02_12
+thyme,22,P02_12
+yoghurt lid,23,P02_12
+pine nut bag,24,P02_12
+tahini,25,P02_12
+yoghurt cup,26,P02_12
+mixture,27,P02_12
+lid,28,P02_12
+pine nut,29,P02_12
+yoghurt,30,P02_12
+tahini jar,31,P02_12
+herb jar,32,P02_12
+chopping board,33,P02_12
+tupperware lid,34,P02_12
+bag,35,P02_12
+coffee tray,36,P02_12
+herb,37,P02_12
+fridge,38,P02_12
+tap,39,P02_12
+sink,40,P02_12
+paper towel,41,P02_12
+right glove,42,P02_12
+thyme jar,43,P02_12
+timer,44,P02_12
+water,45,P02_12
+can,46,P02_12
+oven switch,47,P02_12
+glove,48,P02_12
+timer button,49,P02_12
+left glove,50,P02_12
+left hand,1,P03_10
+fridge,2,P03_10
+right hand,3,P03_10
+bag,4,P03_10
+juice package,5,P03_10
+glass,6,P03_10
+pancake package,7,P03_10
+cupboard,8,P03_10
+bottle,9,P03_10
+butter,10,P03_10
+plate,11,P03_10
+toaster,12,P03_10
+pancake,13,P03_10
+lid,14,P03_10
+knife,15,P03_10
+juice,16,P03_10
+lunch box,17,P03_10
+drainer,18,P03_10
+left hand,1,P03_120
+right hand,2,P03_120
+bowl,3,P03_120
+butter,4,P03_120
+lemon,5,P03_120
+foil,6,P03_120
+grater,7,P03_120
+chopping board,8,P03_120
+weight tray,9,P03_120
+squeezer,10,P03_120
+lemon half,11,P03_120
+scale,12,P03_120
+butter slice,13,P03_120
+paring knife,14,P03_120
+hob/cooktop/stovetop,15,P03_120
+spoon,16,P03_120
+pot,17,P03_120
+knife,18,P03_120
+chef knife,19,P03_120
+sugar,20,P03_120
+tap,21,P03_120
+cupboard,22,P03_120
+tea towel/dish towel,23,P03_120
+sugar tupperware,24,P03_120
+oven,25,P03_120
+tea towel,26,P03_120
+egg carton,27,P03_120
+fridge,28,P03_120
+butter tupperware,29,P03_120
+sink,30,P03_120
+water,31,P03_120
+drawer,32,P03_120
+measuring jug,33,P03_120
+towel,34,P03_120
+weigh tray,35,P03_120
+cloth,36,P03_120
+right hand,1,P03_14
+left hand,2,P03_14
+broom,3,P03_14
+floor,4,P03_14
+rice bag,5,P03_14
+saucepan,6,P03_14
+dustpan,7,P03_14
+hob,8,P03_14
+brush,9,P03_14
+cupboard,10,P03_14
+container,11,P03_14
+lid,12,P03_14
+clothes,13,P03_14
+rice,14,P03_14
+drying rack,15,P03_14
+fridge,16,P03_14
+glass,17,P03_14
+crisp/chips,18,P03_14
+dust bits,19,P03_14
+bin,20,P03_14
+plate,21,P03_14
+left hand,1,P03_22
+right hand,2,P03_22
+bag,3,P03_22
+fridge,4,P03_22
+plate,5,P03_22
+lunch box,6,P03_22
+drink,7,P03_22
+cupboard,8,P03_22
+bin/garbage can/recycling bin,9,P03_22
+glass,10,P03_22
+pancake,11,P03_22
+right hand,1,P04_06
+left hand,2,P04_06
+pan,3,P04_06
+hob/cooktop/stovetop,4,P04_06
+spatula,5,P04_06
+bread,6,P04_06
+spinach,7,P04_06
+plate,8,P04_06
+chopping board,9,P04_06
+potato curry,10,P04_06
+saag paneer,11,P04_06
+spoon,12,P04_06
+dough,13,P04_06
+food,14,P04_06
+rolling pin,15,P04_06
+knife,16,P04_06
+box,17,P04_06
+sink,18,P04_06
+spinach bag,19,P04_06
+drawer,20,P04_06
+tap,21,P04_06
+hob,22,P04_06
+butter,23,P04_06
+bag,24,P04_06
+freezer,25,P04_06
+fridge,26,P04_06
+creme fraiche,27,P04_06
+cup,28,P04_06
+butter container,29,P04_06
+cupboard,30,P04_06
+sharpener,31,P04_06
+paper,32,P04_06
+tray,33,P04_06
+water,34,P04_06
+shreddies,35,P04_06
+patty,36,P04_06
+tamagoyaki,37,P04_06
+spice bottle,38,P04_06
+paneer,39,P04_06
+kitchen roll,40,P04_06
+spice,41,P04_06
+flour,42,P04_06
+potato,43,P04_06
+bin/garbage can/recycling bin,44,P04_06
+tea towel,45,P04_06
+sieve,46,P04_06
+sponge,47,P04_06
+right hand,1,P04_13
+left hand,2,P04_13
+pan,3,P04_13
+hob,4,P04_13
+spatula,5,P04_13
+food,6,P04_13
+spoon,7,P04_13
+rice bag,8,P04_13
+paprika tin,9,P04_13
+cumin bottle,10,P04_13
+garlic powder bottle,11,P04_13
+chorizo,12,P04_13
+cup,13,P04_13
+paprika,14,P04_13
+garlic powder,15,P04_13
+oregano bottle,16,P04_13
+thyme bottle,17,P04_13
+cumin,18,P04_13
+cayenne pepper bottle,19,P04_13
+chopping board,20,P04_13
+knife,21,P04_13
+drawer,22,P04_13
+spice,23,P04_13
+thyme,24,P04_13
+fridge,25,P04_13
+rice,26,P04_13
+lid,27,P04_13
+tea towel,28,P04_13
+cayenne pepper,29,P04_13
+salt bottle,30,P04_13
+pepper,31,P04_13
+sponge,32,P04_13
+oregano,33,P04_13
+salt,34,P04_13
+crumb,35,P04_13
+bin/garbage can/recycling bin,36,P04_13
+right hand,1,P04_24
+left hand,2,P04_24
+pan,3,P04_24
+cooker bowl,4,P04_24
+hob/cooktop/stovetop,5,P04_24
+spatula,6,P04_24
+baking tray,7,P04_24
+spice paste,8,P04_24
+bowl,9,P04_24
+packet,10,P04_24
+peanut,11,P04_24
+spoon,12,P04_24
+scale,13,P04_24
+sink,14,P04_24
+cupboard,15,P04_24
+drawer,16,P04_24
+tap,17,P04_24
+fridge,18,P04_24
+clip,19,P04_24
+pestle,20,P04_24
+spice,21,P04_24
+coconut package,22,P04_24
+scissors,23,P04_24
+oven,24,P04_24
+coconut milk,25,P04_24
+water,26,P04_24
+cloth,27,P04_24
+beef,28,P04_24
+lid,29,P04_24
+packet beef,30,P04_24
+timer,31,P04_24
+coconut powder,32,P04_24
+Scissors,33,P04_24
+right hand,1,P06_03
+left hand,2,P06_03
+pot,3,P06_03
+kettle,4,P06_03
+flour,5,P06_03
+dough,6,P06_03
+ingredient,7,P06_03
+cupboard,8,P06_03
+counter,9,P06_03
+hob,10,P06_03
+flour packet,11,P06_03
+spoon,12,P06_03
+oil bottle,13,P06_03
+bag,14,P06_03
+pepper,15,P06_03
+water,16,P06_03
+lid,17,P06_03
+tap,18,P06_03
+sink,19,P06_03
+oil,20,P06_03
+yeast box,21,P06_03
+sugar packet,22,P06_03
+yeast packet,23,P06_03
+oregano bottle,24,P06_03
+plastic bag,25,P06_03
+pepper bottle,26,P06_03
+salt bottle,27,P06_03
+sugar,28,P06_03
+button,29,P06_03
+socket,30,P06_03
+plug,31,P06_03
+drawer,32,P06_03
+salt,33,P06_03
+yeast,34,P06_03
+right hand,1,P06_05
+left hand,2,P06_05
+knife,3,P06_05
+hob,4,P06_05
+chopping board,5,P06_05
+spoon,6,P06_05
+pizza base,7,P06_05
+dough,8,P06_05
+pot,9,P06_05
+onion,10,P06_05
+cupboard,11,P06_05
+sink,12,P06_05
+flour,13,P06_05
+flour package,14,P06_05
+rolling pin,15,P06_05
+jar,16,P06_05
+lid,17,P06_05
+bacon,18,P06_05
+tap,19,P06_05
+bowl,20,P06_05
+sun dried tomato,21,P06_05
+bacon package,22,P06_05
+sun dried tomato package,23,P06_05
+fridge,24,P06_05
+chopped tomato,25,P06_05
+bag,26,P06_05
+sweetcorn can,27,P06_05
+chilli,28,P06_05
+cheese,29,P06_05
+dishwasher,30,P06_05
+chopped tomato package,31,P06_05
+water,32,P06_05
+rubbish bag,33,P06_05
+sweetcorn,34,P06_05
+oven,35,P06_05
+brush,36,P06_05
+chopped onion,37,P06_05
+rubbish/trash,38,P06_05
+drawer,39,P06_05
+washing liquid,40,P06_05
+pizza,41,P06_05
+container,42,P06_05
+scissors,43,P06_05
+pesto,44,P06_05
+plate,45,P06_05
+bacon wrapper,46,P06_05
+pizza tray,47,P06_05
+package,48,P06_05
+peel,49,P06_05
+cheese package,50,P06_05
+tortilla,51,P06_05
+vegetable,52,P06_05
+rubbish,53,P06_05
+oven shelf,54,P06_05
+jug,55,P06_05
+chilli package,56,P06_05
+box,57,P06_05
+left hand,1,P06_10
+right hand,2,P06_10
+hob,3,P06_10
+lid,4,P06_10
+pot,5,P06_10
+knife,6,P06_10
+chopping board,7,P06_10
+pan,8,P06_10
+carrot,9,P06_10
+water,10,P06_10
+cupboard,11,P06_10
+carrot package,12,P06_10
+potato package,13,P06_10
+tomato sauce,14,P06_10
+spoon,15,P06_10
+potato,16,P06_10
+counter,17,P06_10
+tap,18,P06_10
+sink,19,P06_10
+glove,20,P06_10
+scissors,21,P06_10
+dishwasher,22,P06_10
+fridge,23,P06_10
+cooker,24,P06_10
+cooker temperature,25,P06_10
+salt,26,P06_10
+drawer,27,P06_10
+bag,28,P06_10
+right hand,1,P06_106
+left hand,2,P06_106
+rice,3,P06_106
+colander,4,P06_106
+sink,5,P06_106
+plate,6,P06_106
+tortilla,7,P06_106
+tap,8,P06_106
+pan,9,P06_106
+hob,10,P06_106
+spoon,11,P06_106
+kettle,12,P06_106
+water,13,P06_106
+chilli,14,P06_106
+lid,15,P06_106
+fork,16,P06_106
+cheese packet,17,P06_106
+saucepan,18,P06_106
+cheese,19,P06_106
+fridge,20,P06_106
+chopping board,21,P06_106
+cheese grater,22,P06_106
+knife,23,P06_106
+drawer,24,P06_106
+cupboard,25,P06_106
+right hand,1,P06_108
+left hand,2,P06_108
+sink,3,P06_108
+pan,4,P06_108
+tap,5,P06_108
+water,6,P06_108
+can,7,P06_108
+pizza,8,P06_108
+knife,9,P06_108
+chopping board,10,P06_108
+silver foil,11,P06_108
+bowl,12,P06_108
+can opener,13,P06_108
+drawer,14,P06_108
+jar,15,P06_108
+hob,16,P06_108
+door,17,P06_108
+tuna,18,P06_108
+packet,19,P06_108
+dough,20,P06_108
+lid,21,P06_108
+olive,22,P06_108
+fork,23,P06_108
+plate,24,P06_108
+mozzarella,25,P06_108
+oven,26,P06_108
+flour,27,P06_108
+drying rack,28,P06_108
+chopped tomato,29,P06_108
+spoon,30,P06_108
+phone,31,P06_108
+dish soap bottle,32,P06_108
+onion,33,P06_108
+base,34,P06_108
+dish soap,35,P06_108
+cupboard,36,P06_108
+towel,37,P06_108
+fridge,38,P06_108
+window,39,P06_108
+saucepan,40,P06_108
+foil package,41,P06_108
+sponge,42,P06_108
+left hand,1,P07_101
+right hand,2,P07_101
+pan,3,P07_101
+cheese,4,P07_101
+chopping board,5,P07_101
+chorizo,6,P07_101
+knife,7,P07_101
+sink,8,P07_101
+tortilla,9,P07_101
+tap,10,P07_101
+hob,11,P07_101
+hob/cooktop/stovetop,12,P07_101
+tray,13,P07_101
+bread,14,P07_101
+fridge,15,P07_101
+cupboard,16,P07_101
+tortilla packet,17,P07_101
+oven,18,P07_101
+coffee maker,19,P07_101
+paper roll,20,P07_101
+chorizo packet,21,P07_101
+plate,22,P07_101
+cutting board,23,P07_101
+water,24,P07_101
+towel,25,P07_101
+spoon,26,P07_101
+bread packet,27,P07_101
+drawer,28,P07_101
+spatula,29,P07_101
+packet,30,P07_101
+cheese packet,31,P07_101
+ham,32,P07_101
+glove,33,P07_101
+left hand,1,P07_103
+right hand,2,P07_103
+right glove,3,P07_103
+oven,4,P07_103
+tray,5,P07_103
+cheese,6,P07_103
+toast,7,P07_103
+hob,8,P07_103
+towel,9,P07_103
+plate,10,P07_103
+glove,11,P07_103
+cupboard,12,P07_103
+right hand,1,P07_110
+left hand,2,P07_110
+glass,3,P07_110
+banana,4,P07_110
+milk bottle,5,P07_110
+oat,6,P07_110
+sink,7,P07_110
+milk,8,P07_110
+peel,9,P07_110
+mixer,10,P07_110
+cup,11,P07_110
+fridge,12,P07_110
+mixer base,13,P07_110
+tap,14,P07_110
+milk bottle lid,15,P07_110
+mixture,16,P07_110
+apple,17,P07_110
+pot,18,P07_110
+bin,19,P07_110
+drawer,20,P07_110
+box,21,P07_110
+syrup bottle,22,P07_110
+water,23,P07_110
+cloth,24,P07_110
+sponge,25,P07_110
+syrup,26,P07_110
+mixer bowl,27,P07_110
+knife,28,P07_110
+blind,29,P07_110
+package,30,P07_110
+blind cord,31,P07_110
+cupboard,32,P07_110
+bottle,33,P07_110
+garlic peel,34,P07_110
+shelf,35,P07_110
+right hand,1,P08_17
+left hand,2,P08_17
+pot,3,P08_17
+pan,4,P08_17
+hob/cooktop/stovetop,5,P08_17
+food,6,P08_17
+spoon,7,P08_17
+bowl,8,P08_17
+lid,9,P08_17
+fork,10,P08_17
+spatula,11,P08_17
+sink,12,P08_17
+plate,13,P08_17
+dishwasher,14,P08_17
+garlic,15,P08_17
+vegetable rice,16,P08_17
+knife,17,P08_17
+rice,18,P08_17
+chopping board,19,P08_17
+cupboard,20,P08_17
+kitchen towel,21,P08_17
+spinach leaf,22,P08_17
+film,23,P08_17
+meat,24,P08_17
+cooker,25,P08_17
+fridge,26,P08_17
+pepper shaker,27,P08_17
+olive oil,28,P08_17
+cooked rice,29,P08_17
+sieve,30,P08_17
+corn,31,P08_17
+drawer,32,P08_17
+soy sauce,33,P08_17
+colander,34,P08_17
+box,35,P08_17
+olive oil bottle,36,P08_17
+whisked egg,37,P08_17
+bell pepper,38,P08_17
+salad bowl,39,P08_17
+sponge,40,P08_17
+oil,41,P08_17
+egg,42,P08_17
+soy sauce bottle lid,43,P08_17
+hob,44,P08_17
+sponge handle,45,P08_17
+garlic skin,46,P08_17
+bin/garbage can/recycling bin,47,P08_17
+right hand,1,P09_02
+left hand,2,P09_02
+pan,3,P09_02
+sink,4,P09_02
+hob,5,P09_02
+egg,6,P09_02
+cup,7,P09_02
+spatula,8,P09_02
+knife,9,P09_02
+tap,10,P09_02
+chopping board,11,P09_02
+cabinet,12,P09_02
+vegetable,13,P09_02
+food,14,P09_02
+refrigerator,15,P09_02
+cheese,16,P09_02
+refrigerator door,17,P09_02
+egg carton,18,P09_02
+eggshell,19,P09_02
+oat packing,20,P09_02
+water,21,P09_02
+bowl,22,P09_02
+fridge,23,P09_02
+stove,24,P09_02
+spoon,25,P09_02
+drawer,26,P09_02
+fork,27,P09_02
+oil bottle,28,P09_02
+hob/cooktop/stovetop,29,P09_02
+omelette,30,P09_02
+cutting board,31,P09_02
+oat,32,P09_02
+oil,33,P09_02
+dishwasher,34,P09_02
+trash,35,P09_02
+dish,36,P09_02
+cupboard,37,P09_02
+right hand,1,P09_07
+drawer,2,P09_07
+left hand,3,P09_07
+supplement,4,P09_07
+mixer,5,P09_07
+cupboard,6,P09_07
+supplement box,7,P09_07
+supplement box lid,8,P09_07
+measuring spoon,9,P09_07
+right hand,1,P09_103
+left hand,2,P09_103
+chicken,3,P09_103
+pan,4,P09_103
+hob/cooktop/stovetop,5,P09_103
+chopping board,6,P09_103
+knife,7,P09_103
+oil bottle,8,P09_103
+spoon,9,P09_103
+condiment,10,P09_103
+prawn/shrimp,11,P09_103
+tap,12,P09_103
+sink,13,P09_103
+switch,14,P09_103
+water,15,P09_103
+chicken container,16,P09_103
+bin/garbage can/recycling bin,17,P09_103
+prawn top sticker,18,P09_103
+garlic powder,19,P09_103
+pepper,20,P09_103
+chicken package,21,P09_103
+prawn,22,P09_103
+oil,23,P09_103
+right hand,1,P09_104
+left hand,2,P09_104
+pan,3,P09_104
+fridge,4,P09_104
+chorizo,5,P09_104
+hob/cooktop/stovetop,6,P09_104
+cup,7,P09_104
+sink,8,P09_104
+spoon,9,P09_104
+tap,10,P09_104
+soy milk,11,P09_104
+banana,12,P09_104
+knife,13,P09_104
+chorizo bag,14,P09_104
+strawberry,15,P09_104
+stove,16,P09_104
+lid,17,P09_104
+blender jug,18,P09_104
+cheese,19,P09_104
+towel,20,P09_104
+packaging,21,P09_104
+oil bottle,22,P09_104
+banana skin,23,P09_104
+blade,24,P09_104
+egg,25,P09_104
+sponge,26,P09_104
+water,27,P09_104
+socket,28,P09_104
+mixture,29,P09_104
+pot,30,P09_104
+cupboard,31,P09_104
+blender,32,P09_104
+soap,33,P09_104
+honey,34,P09_104
+bin/garbage can/recycling bin,35,P09_104
+soap bottle,36,P09_104
+counter,37,P09_104
+egg carton,38,P09_104
+milk,39,P09_104
+drawer,40,P09_104
+eggshell,41,P09_104
+right hand,1,P09_106
+left hand,2,P09_106
+plate,3,P09_106
+juice carton,4,P09_106
+lid,5,P09_106
+food,6,P09_106
+cup,7,P09_106
+hob,8,P09_106
+microwave,9,P09_106
+spoon,10,P09_106
+pot,11,P09_106
+fridge,12,P09_106
+juice,13,P09_106
+cupboard,14,P09_106
+sink,15,P09_106
+fork,16,P09_106
+drainer,17,P09_106
+rice,18,P09_106
+left hand,1,P12_04
+right hand,2,P12_04
+sink,3,P12_04
+spoon,4,P12_04
+lasagna plate,5,P12_04
+frying pan,6,P12_04
+tap,7,P12_04
+hob,8,P12_04
+knife,9,P12_04
+chopping board,10,P12_04
+bowl,11,P12_04
+minced meat,12,P12_04
+water,13,P12_04
+lasagne sheet,14,P12_04
+cheese mixture,15,P12_04
+dishwasher,16,P12_04
+cheese,17,P12_04
+pot,18,P12_04
+fork,19,P12_04
+foil box,20,P12_04
+cloth,21,P12_04
+basil,22,P12_04
+package,23,P12_04
+plate,24,P12_04
+lid,25,P12_04
+mincemeat,26,P12_04
+chopped cucumber,27,P12_04
+olive oil bottle,28,P12_04
+garbage,29,P12_04
+drawer,30,P12_04
+pasta,31,P12_04
+floor,32,P12_04
+brush,33,P12_04
+plastic bag,34,P12_04
+foil,35,P12_04
+trash,36,P12_04
+sponge,37,P12_04
+foil roll,38,P12_04
+oven,39,P12_04
+mug,40,P12_04
+spatula,41,P12_04
+garbage bin,42,P12_04
+bottle,43,P12_04
+dirty dish,44,P12_04
+salt,45,P12_04
+fridge,46,P12_04
+chocolate,47,P12_04
+fan,48,P12_04
+tool,49,P12_04
+cupboard,50,P12_04
+olive oil,51,P12_04
+bottle lid,52,P12_04
+grater,53,P12_04
+washing up liquid,54,P12_04
+soap,55,P12_04
+asagne sheet,56,P12_04
+folk,57,P12_04
+pan,58,P12_04
+box,59,P12_04
+pasta plate,60,P12_04
+table,61,P12_04
+right hand,1,P18_01
+left hand,2,P18_01
+coffee machine,3,P18_01
+cupboard,4,P18_01
+plate,5,P18_01
+coffee,6,P18_01
+drawer,7,P18_01
+spoon,8,P18_01
+spreading knife,9,P18_01
+coffee filter,10,P18_01
+bread package,11,P18_01
+coffee filter bag,12,P18_01
+fork,13,P18_01
+coffee bag,14,P18_01
+counter,15,P18_01
+sink,16,P18_01
+coffee pot,17,P18_01
+mug,18,P18_01
+toast bread,19,P18_01
+bowl,20,P18_01
+tap,21,P18_01
+coffee machine drawer,22,P18_01
+toaster,23,P18_01
+garbage,24,P18_01
+water,25,P18_01
+right hand,1,P18_02
+left hand,2,P18_02
+coffee pot,3,P18_02
+sink,4,P18_02
+tap,5,P18_02
+water,6,P18_02
+plate,7,P18_02
+dish soap bottle,8,P18_02
+toaster,9,P18_02
+sponge,10,P18_02
+bread slice,11,P18_02
+drying rack,12,P18_02
+lid,13,P18_02
+knife,14,P18_02
+cap,15,P18_02
+peanut butter,16,P18_02
+jar,17,P18_02
+mug,18,P18_02
+coffee machine,19,P18_02
+spoon,20,P18_02
+cupboard,21,P18_02
+towel,22,P18_02
+right hand,1,P21_01
+left hand,2,P21_01
+dish,3,P21_01
+fridge,4,P21_01
+glass,5,P21_01
+tortilla,6,P21_01
+tomato,7,P21_01
+sink,8,P21_01
+knife,9,P21_01
+grape,10,P21_01
+microwave,11,P21_01
+tap,12,P21_01
+tomato heart,13,P21_01
+shopping bag,14,P21_01
+grape bag,15,P21_01
+cheese,16,P21_01
+fork,17,P21_01
+sauce container,18,P21_01
+water,19,P21_01
+chopping board,20,P21_01
+olive oil bottle,21,P21_01
+blueberry box,22,P21_01
+table,23,P21_01
+cheese package,24,P21_01
+sauce,25,P21_01
+tortilla pack,26,P21_01
+blueberry,27,P21_01
+lid,28,P21_01
+spoon,29,P21_01
+grocery,30,P21_01
+pepper,31,P21_01
+salt corn,32,P21_01
+cupboard,33,P21_01
+salt,34,P21_01
+napkin,35,P21_01
+milk,36,P21_01
+milk bottle,37,P21_01
+sponge,38,P21_01
+olive oil,39,P21_01
+coke bottle,40,P21_01
+paper towel,41,P21_01
+fruit,42,P21_01
+coke,43,P21_01
+sticker,44,P21_01
+grape rubbish,45,P21_01
+right hand,1,P22_107
+left hand,2,P22_107
+bowl,3,P22_107
+glass,4,P22_107
+yogurt,5,P22_107
+cupboard,6,P22_107
+sink,7,P22_107
+blackberry,8,P22_107
+spoon,9,P22_107
+fridge,10,P22_107
+bag,11,P22_107
+drawer,12,P22_107
+jar,13,P22_107
+yogurt container,14,P22_107
+water,15,P22_107
+teaspoon,16,P22_107
+tap,17,P22_107
+cup,18,P22_107
+powder,19,P22_107
+bottle,20,P22_107
+lid,21,P22_107
+drainer,22,P22_107
+measuring spoon,23,P22_107
+cloth,24,P22_107
+place mat,25,P22_107
+white bag,26,P22_107
+mixture,27,P22_107
+cereal,28,P22_107
+plate,29,P22_107
+packaging,30,P22_107
+cereal box,31,P22_107
+knife,32,P22_107
+paper,33,P22_107
+water bottle,34,P22_107
+box,35,P22_107
+cereal bag,36,P22_107
+chopping board,37,P22_107
+cutlery,38,P22_107
+fork,39,P22_107
+door,40,P22_107
+clip,41,P22_107
+yoghurt,42,P22_107
+right hand,1,P24_09
+left hand,2,P24_09
+sink,3,P24_09
+plate,4,P24_09
+knife,5,P24_09
+fork,6,P24_09
+pan,7,P24_09
+chopping board,8,P24_09
+tap,9,P24_09
+hob,10,P24_09
+egg,11,P24_09
+bowl,12,P24_09
+wooden spoon,13,P24_09
+potato,14,P24_09
+lid,15,P24_09
+onion,16,P24_09
+door,17,P24_09
+fridge,18,P24_09
+colander,19,P24_09
+carrot,20,P24_09
+cupboard,21,P24_09
+water,22,P24_09
+tomato,23,P24_09
+lettuce,24,P24_09
+omelette,25,P24_09
+bag,26,P24_09
+carrot skin,27,P24_09
+cheese box,28,P24_09
+egg box,29,P24_09
+oil bottle,30,P24_09
+cheese,31,P24_09
+sponge,32,P24_09
+oil,33,P24_09
+cup,34,P24_09
+lettuce package,35,P24_09
+mozzarella bag,36,P24_09
+salad,37,P24_09
+eggshell,38,P24_09
+oregano bag,39,P24_09
+dish soap bottle,40,P24_09
+carrot box,41,P24_09
+freezer,42,P24_09
+potato skin,43,P24_09
+mozzarella,44,P24_09
+onion skin,45,P24_09
+garbage bag,46,P24_09
+breadcrumb,47,P24_09
+potato bag,48,P24_09
+bottle cap,49,P24_09
+flame cooker,50,P24_09
+salad bowl,51,P24_09
+table,52,P24_09
+towel,53,P24_09
+cap,54,P24_09
+clothespin,55,P24_09
+bread,56,P24_09
+dish soap,57,P24_09
+dish,58,P24_09
+right hand,1,P25_09
+left hand,2,P25_09
+sink,3,P25_09
+hob/cooktop/stovetop,4,P25_09
+water,5,P25_09
+tap,6,P25_09
+pan,7,P25_09
+bowl,8,P25_09
+chicken,9,P25_09
+plate,10,P25_09
+lettuce,11,P25_09
+fork,12,P25_09
+colander,13,P25_09
+knife,14,P25_09
+paper,15,P25_09
+detergent,16,P25_09
+sponge,17,P25_09
+door,18,P25_09
+drawer,19,P25_09
+cupboard,20,P25_09
+oil,21,P25_09
+vinegar,22,P25_09
+spoon,23,P25_09
+cloth,24,P25_09
+napkin,25,P25_09
+lighter,26,P25_09
+salad,27,P25_09
+salt,28,P25_09
+rubbish bag,29,P25_09
+vinegar bottle lid,30,P25_09
+bottle cap,31,P25_09
+mug,32,P25_09
+oil bottle,33,P25_09
+bag,34,P25_09
+right hand,1,P25_101
+plate,2,P25_101
+meat,3,P25_101
+pan,4,P25_101
+hob,5,P25_101
+fork,6,P25_101
+left hand,7,P25_101
+drawer,8,P25_101
+oil bottle,9,P25_101
+colander,10,P25_101
+sink,11,P25_101
+paper,12,P25_101
+tap,13,P25_101
+lighter,14,P25_101
+lid,15,P25_101
+bag,16,P25_101
+oil,17,P25_101
+washing up liquid,18,P25_101
+jar,19,P25_101
+cupboard,20,P25_101
+water,21,P25_101
+right hand,1,P26_01
+left hand,2,P26_01
+pot,3,P26_01
+hob/cooktop/stovetop,4,P26_01
+package,5,P26_01
+knife,6,P26_01
+cupboard,7,P26_01
+aluminium foil,8,P26_01
+plate,9,P26_01
+fridge,10,P26_01
+drawer,11,P26_01
+fork,12,P26_01
+lighter,13,P26_01
+cupboard door,14,P26_01
+cutlery tray,15,P26_01
+switch,16,P26_01
+right hand,1,P26_02
+left hand,2,P26_02
+chicken breast,3,P26_02
+pot,4,P26_02
+hob,5,P26_02
+fork,6,P26_02
+plate,7,P26_02
+cupboard,8,P26_02
+knife,9,P26_02
+salt,10,P26_02
+chicken breast package,11,P26_02
+fridge,12,P26_02
+dish,13,P26_02
+oil,14,P26_02
+bread,15,P26_02
+bag,16,P26_02
+lemon,17,P26_02
+sink,18,P26_02
+tap,19,P26_02
+table,20,P26_02
+water,21,P26_02
+cloth,22,P26_02
+left hand,1,P26_108
+right hand,2,P26_108
+hob/cooktop/stovetop,3,P26_108
+plate,4,P26_108
+pan,5,P26_108
+spoon,6,P26_108
+lid,7,P26_108
+cupboard,8,P26_108
+food,9,P26_108
+pasta package,10,P26_108
+pasta,11,P26_108
+scale,12,P26_108
+pot,13,P26_108
+oven,14,P26_108
+right hand,1,P27_105
+left hand,2,P27_105
+table,3,P27_105
+sink,4,P27_105
+knife,5,P27_105
+tap,6,P27_105
+water,7,P27_105
+glass,8,P27_105
+sponge,9,P27_105
+sandwich,10,P27_105
+coffee,11,P27_105
+mozzarella,12,P27_105
+paper piece,13,P27_105
+coffee machine,14,P27_105
+bread slice,15,P27_105
+ham,16,P27_105
+package,17,P27_105
+box,18,P27_105
+bottle,19,P27_105
+cake,20,P27_105
+tray,21,P27_105
+garbage bin,22,P27_105
+fridge,23,P27_105
+cake mould,24,P27_105
+bowl,25,P27_105
+aluminium foil,26,P27_105
+small sandwich,27,P27_105
+spoon,28,P27_105
+drawer,29,P27_105
+sugar jar,30,P27_105
+cloth,31,P27_105
+pot holder,32,P27_105
+soap,33,P27_105
+bag,34,P27_105
+sachet,35,P27_105
+paper,36,P27_105
+bread,37,P27_105
+oven,38,P27_105
+small bread,39,P27_105
+button,40,P27_105
+glove,41,P27_105
+cake pieces,42,P27_105
+sugar,43,P27_105
+lid,44,P27_105
+cupboard,45,P27_105
+kitchen roll/paper towel roll,46,P27_105
+coffee pod,47,P27_105
+towel,48,P27_105
+lever,49,P27_105
+teaspoon,50,P27_105
+pod packaging,51,P27_105
+machine,52,P27_105
+packaging,53,P27_105
+cake piece,54,P27_105
+cup,55,P27_105
+sugar bag,56,P27_105
+ham slice,57,P27_105
+right hand,1,P28_05
+left hand,2,P28_05
+chopping board,3,P28_05
+knife,4,P28_05
+carrot,5,P28_05
+vegetable,6,P28_05
+plate,7,P28_05
+tray,8,P28_05
+courgette,9,P28_05
+courgette piece,10,P28_05
+aubergine piece,11,P28_05
+pepper,12,P28_05
+spring onion,13,P28_05
+strainer,14,P28_05
+aubergine,15,P28_05
+potato,16,P28_05
+sink,17,P28_05
+drawer,18,P28_05
+spring onion piece,19,P28_05
+onion,20,P28_05
+glove,21,P28_05
+cupboard,22,P28_05
+oven temperature,23,P28_05
+left hand,1,P29_04
+right hand,2,P29_04
+tea box,3,P29_04
+teapot,4,P29_04
+bowl,5,P29_04
+kettle,6,P29_04
+cereal box,7,P29_04
+cupboard,8,P29_04
+mug,9,P29_04
+teapot lid,10,P29_04
+shelf,11,P29_04
+teaspoon,12,P29_04
+cereal,13,P29_04
+milk,14,P29_04
+tea packet,15,P29_04
+tea,16,P29_04
+tea pot,17,P29_04
+fridge,18,P29_04
+seal,19,P29_04
+teapot filter,20,P29_04
+milk cap,21,P29_04
+scissors,22,P29_04
+tap,23,P29_04
+sink,24,P29_04
+switch,25,P29_04
+stand,26,P29_04
+spoon,27,P29_04
+right hand,1,P30_07
+left hand,2,P30_07
+cupboard,3,P30_07
+bowl,4,P30_07
+spoon,5,P30_07
+cereal,6,P30_07
+sink,7,P30_07
+mug,8,P30_07
+sponge,9,P30_07
+tap,10,P30_07
+water,11,P30_07
+surface,12,P30_07
+kettle,13,P30_07
+v60/pourover coffee maker,14,P30_07
+filter,15,P30_07
+coffee grinder,16,P30_07
+jug,17,P30_07
+drainer,18,P30_07
+coffee bag,19,P30_07
+cereal box,20,P30_07
+soy milk carton,21,P30_07
+plate,22,P30_07
+tea towel/dish towel,23,P30_07
+washing bowl,24,P30_07
+filter box,25,P30_07
+chopping board,26,P30_07
+coffee,27,P30_07
+cereal bag,28,P30_07
+drawer,29,P30_07
+lime squeezer,30,P30_07
+microwave,31,P30_07
+olive oil bottle,32,P30_07
+fridge,33,P30_07
+lid,34,P30_07
+spilled milk,35,P30_07
+honey bottle,36,P30_07
+bin/garbage can/recycling bin,37,P30_07
+v60,38,P30_07
+recycling bin,39,P30_07
+fork,40,P30_07
+knife,41,P30_07
+liquid bottle,42,P30_07
+coffee jar,43,P30_07
+soy milk,44,P30_07
+right hand,1,P30_110
+left hand,2,P30_110
+sink,3,P30_110
+tap,4,P30_110
+washing up bowl,5,P30_110
+mug,6,P30_110
+plate,7,P30_110
+filter paper,8,P30_110
+water,9,P30_110
+v60/pourover coffee maker,10,P30_110
+coffee,11,P30_110
+sponge,12,P30_110
+saucepan,13,P30_110
+fridge,14,P30_110
+cupboard,15,P30_110
+spoon,16,P30_110
+stir fry,17,P30_110
+spaghetti tupperware,18,P30_110
+pitta bread,19,P30_110
+jug,20,P30_110
+tupperware,21,P30_110
+toaster,22,P30_110
+tupperware lid,23,P30_110
+coffee tin,24,P30_110
+hob,25,P30_110
+drainer,26,P30_110
+chopping board,27,P30_110
+knife,28,P30_110
+spaghetti,29,P30_110
+kettle,30,P30_110
+ground coffee container,31,P30_110
+cup,32,P30_110
+coffee machine,33,P30_110
+pitta bread package,34,P30_110
+coffee tin lid,35,P30_110
+drawer,36,P30_110
+tupperware food,37,P30_110
+hummus,38,P30_110
+bin,39,P30_110
+fridge top,40,P30_110
+tea,41,P30_110
+teabag,42,P30_110
+washing up liquid/dish soap,43,P30_110
+toaster,1,P32_07
+right hand,2,P32_07
+bread package,3,P32_07
+left hand,4,P32_07
+sandwich bread,5,P32_07
+right hand,1,P37_102
+left hand,2,P37_102
+plate,3,P37_102
+carrot,4,P37_102
+chopping board,5,P37_102
+cleaver,6,P37_102
+pot,7,P37_102
+sink,8,P37_102
+tap,9,P37_102
+cloth,10,P37_102
+water,11,P37_102
+chicken thigh,12,P37_102
+hob,13,P37_102
+chicken thigh soup,14,P37_102
+switch,15,P37_102
+diced carrot,16,P37_102
+carrot bag,17,P37_102
+fridge,18,P37_102
+packing bag,19,P37_102
+spatula,20,P37_102
+ice cube bag,21,P37_102
+sponge,22,P37_102
+drawer,23,P37_102
+bin/garbage can/recycling bin,24,P37_102
+carrot bit,25,P37_102
+drainer,26,P37_102
+right hand,1,P01_103
+left hand,2,P01_103
+cup,3,P01_103
+cupboard,4,P01_103
+cereal box,5,P01_103
+fridge,6,P01_103
+soy milk,7,P01_103
+colander,8,P01_103
+cereal bag,9,P01_103
+drawer,10,P01_103
+cereal,11,P01_103
+knife,12,P01_103
+food container,13,P01_103
+cafetiere,14,P01_103
+spoon,15,P01_103
+tap,16,P01_103
+sink,17,P01_103
+rice cooker pot,18,P01_103
+tea towel/dish towel,19,P01_103
+peeler,20,P01_103
+cutlery tray,21,P01_103
+wok,22,P01_103
+cap,23,P01_103
+table,24,P01_103
+plate,25,P01_103
+spatula,26,P01_103
+fork,27,P01_103
+chopping board,28,P01_103
+rice cooker,29,P01_103
+tea towel,30,P01_103
+water,31,P01_103
+paper,32,P01_103
+door,33,P01_103
