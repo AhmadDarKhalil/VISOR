@@ -88,7 +88,7 @@ def generate_masks_for_image(image_name, image_path, masks_info, output_director
 
 
 
-def folder_of_jsons_to_masks(input_directory,output_directory,is_overlay=False, images_root_directory= '.', output_resolution=(1920,1080),generate_video=False):
+def folder_of_jsons_to_masks(input_directory,output_directory,is_overlay=False, images_root_directory= '.', output_resolution=(1920,1080),generate_video=True):
 
     
     if os.path.exists(os.path.join(output_directory,'data_mapping.csv')):
