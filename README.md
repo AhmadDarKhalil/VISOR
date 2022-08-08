@@ -3,7 +3,7 @@ This repository is to visualize VISOR dataset (both sparse and dense) by having 
 
 
 ## How to use
-The visualization script vis.py contains a function called `folder_of_jsons_to_masks` implemented to visualize the JSON files, the function support has those arguments:
+Open `demo.py` script and edit the paths with yout local paths. `demo.py` script will call `folder_of_jsons_to_masks` function from vis.py the function support has those arguments:
 
 `input_directory`: a path to JSON files you want to visualizse.<br />
 `output_directory`: a path where the output masks/overlay would be generated.<br />
