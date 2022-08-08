@@ -11,7 +11,7 @@ import os
 json_files_path = '/home/ru20956/Downloads/visor_release_v3_train_val_test/sample_json'
 output_directory ='/home/ru20956/Downloads/out_pngs/sample_masks'
 input_resolution = (1920,1080)
-output_resolution= (1920,1080)
+output_resolution= (192,108)
 is_overlay=True
 images_root_directory = '/home/ru20956/Downloads/DATA/Images_fixed_train_val_test'
 
