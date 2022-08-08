@@ -12,3 +12,4 @@ The visualization script vis.py contains a function called `folder_of_jsons_to_m
 `output_resolution` (optional): output resolution of the generated masks/overlaid images. Default is Full HD (1920x1080)<br />
 `generate_video` (optional): whthear you want to create videos from the output images. Default is True
 
+You'll also get a `data_mapping.csv` file in the output directory, this file maps each colour in the PNG images into the object name.
