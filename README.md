@@ -12,4 +12,7 @@ Open `demo.py` script and edit the paths with yout local paths. `demo.py` script
 `output_resolution` (optional): output resolution of the generated masks/overlaid images. Default is Full HD (1920x1080)<br />
 `generate_video` (optional): whthear you want to create videos from the output images. Default is True
 
-You'll also get a `data_mapping.csv` file in the output directory, this file maps each colour in the PNG images into the object name.
+After identifying all arguments, just run `python demo.py` and you should get the visualizations in your `output_directory`.
+
+You'll also get a `data_mapping.csv` file in the `output_directory`, this file maps each colour in the PNG images into the object name.
+
