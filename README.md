@@ -1,4 +1,4 @@
-# VISOR
+# VISOR visualization
 This repository is to visualize VISOR dataset (both sparse and dense). VISOR website: (https://epic-kitchens.github.io/VISOR)
 
 
