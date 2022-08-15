@@ -102,7 +102,7 @@ As explained in Sec 2.4, two consecutive ground truth segmentations are used to 
 In addition to the flags above, additional flags are available in interpolations:<br>
 
 -- `type`: 1: start/end ground-truth frames, that have been filtered to only include entities that are present at both the start and end frames. These are replicated here. 0: interpolated frames<br>
--- i`nterpolation`: unique incremental ID for each interpolation in the dataset
+-- `interpolation`: unique incremental ID for each interpolation in the dataset
 
 ## Frame Extraction (frame_mapping.json)
 
