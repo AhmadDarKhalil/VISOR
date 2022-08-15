@@ -5,10 +5,21 @@ This repository is to visualize VISOR dataset (both sparse and dense). VISOR web
 ## How to use
 Open `demo.py` script and edit the paths with your local paths. `demo.py` script will call `folder_of_jsons_to_masks` function from vis.py the function support has those arguments:
 
-`input_directory`: a path to JSON files you want to visualize.<br />
+`json_files_path`: a path to JSON files you want to visualize.<br /> The path file structure would be:<br>
+/path/to/json/files/folder:<br>
+-- P01_01.json<br>
+-- P01_102.json<br>
+-- PXX_XXX.json<br>
+ 
 `output_directory`: a path where the output masks/overlay would be generated.<br />
 `is_overlay` (optional): this flag determine if you want to generate masks (is_overlay=False) only or overlaid images (is_overlay=True). Default is False.<br />
-`rgb_frames` (optional): a path where VISOR images are in case you want to visualize the output as overlaid images.<br />
+`rgb_frames` (optional): a path where VISOR images are in case you want to visualize the output as overlaid images.<br /> The path file structure would be:<br>
+/path/to/rbg_frames/folder:<br>
+-- P01_01<br>
+---- P01_01_frame_0000xxxxxx.jpg<br>
+-- PXX_XXX<br>
+---- PXX_XXX_frame_0000xxxxxx.jpg<br>
+
 `output_resolution` (optional): output resolution of the generated masks/overlaid images. Default is Full HD (1920x1080)<br />
 `generate_video` (optional): whether you want to create videos from the output images. Default is True
 

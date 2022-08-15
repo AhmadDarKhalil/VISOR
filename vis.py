@@ -88,20 +88,20 @@ def generate_masks_for_image(image_name, image_path, masks_info, output_director
 
 
 
-def folder_of_jsons_to_masks(input_directory,output_directory,is_overlay=False, images_root_directory= '.', output_resolution=(1920,1080),generate_video=True):
+def folder_of_jsons_to_masks(json_files_path,output_directory,is_overlay=False, rgb_frames= '.', output_resolution=(1920,1080),generate_video=True):
 
     
     if os.path.exists(os.path.join(output_directory,'data_mapping.csv')):
         os.remove(os.path.join(output_directory,'data_mapping.csv'))
         
-    for json_file in tqdm(sorted(glob.glob(os.path.join(input_directory ,'*.json')))):
+    for json_file in tqdm(sorted(glob.glob(os.path.join(json_files_path ,'*.json')))):
         if 'interpolation' in os.path.basename(json_file):
             input_resolution =(854,480)
             frame_rate = 50
         else:
             input_resolution =(1920,1080)
             frame_rate = 3
-        objects_keys = json_to_masks_new(json_file,output_directory,is_overlay=is_overlay, images_root_directory=images_root_directory,input_resolution=input_resolution, output_resolution=output_resolution)
+        objects_keys = json_to_masks_new(json_file,output_directory,is_overlay=is_overlay, images_root_directory=rgb_frames,input_resolution=input_resolution, output_resolution=output_resolution)
         if generate_video:
             generate_video_from_images(os.path.join(output_directory,'_'.join(os.path.basename(json_file).split('.')[0].split('_')[:2])), frame_rate)
         data = pd.DataFrame(objects_keys.items(), columns=['object_name', 'unique_index'])

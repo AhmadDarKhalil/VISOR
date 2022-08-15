@@ -15,4 +15,4 @@ is_overlay=False
 rgb_frames = '../Images'
 generate_video=True
 
-folder_of_jsons_to_masks(json_files_path, output_directory,is_overlay=is_overlay,images_root_directory=rgb_frames,output_resolution=output_resolution,generate_video=generate_video)
+folder_of_jsons_to_masks(json_files_path, output_directory,is_overlay=is_overlay,rgb_frames=rgb_frames,output_resolution=output_resolution,generate_video=generate_video)
