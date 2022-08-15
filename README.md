@@ -18,11 +18,11 @@ You'll also get a `data_mapping.csv` file in the `output_directory`, this file m
 
 
 
-# EPIC-KITCHENS VISOR (Video Segmentations and Object Relations) Dataset
-Release Date: Aug 2022
+# Details on VISOR datset
+
 
 ## Authors
-Ahmad Darkhalil* (1)
+Ahmad Darkhalil* (1) <hr>
 Dandan Shan* (2)
 Bin Zhu* (1)
 Jian Ma* (1)
@@ -36,6 +36,7 @@ Dima Damen (1)
 2: University of Michigan, United States
 3: University of Toronto, Canada
 
+Release Date: Aug 2022
 
 ## Citing
 When using VISOR annotations, kindly reference both the annotations paper (VISOR) and the EPIC-KITCHENS-100 paper as follows:
