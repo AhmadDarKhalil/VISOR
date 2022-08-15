@@ -22,7 +22,7 @@ You'll also get a `data_mapping.csv` file in the `output_directory`, this file m
 
 
 ## Authors
-Ahmad Darkhalil* (1) <hr>
+Ahmad Darkhalil* (1) <br>
 Dandan Shan* (2)
 Bin Zhu* (1)
 Jian Ma* (1)
