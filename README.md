@@ -8,7 +8,7 @@ Open `demo.py` script and edit the paths with your local paths. `demo.py` script
 `input_directory`: a path to JSON files you want to visualize.<br />
 `output_directory`: a path where the output masks/overlay would be generated.<br />
 `is_overlay` (optional): this flag determine if you want to generate masks (is_overlay=False) only or overlaid images (is_overlay=True). Default is False.<br />
-`images_root_directory` (optional): a path where VISOR images are in case you want to visualize the output as overlaid images.<br />
+`rgb_frames` (optional): a path where VISOR images are in case you want to visualize the output as overlaid images.<br />
 `output_resolution` (optional): output resolution of the generated masks/overlaid images. Default is Full HD (1920x1080)<br />
 `generate_video` (optional): whether you want to create videos from the output images. Default is True
 
