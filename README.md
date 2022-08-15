@@ -68,7 +68,7 @@ http://dx.doi.org/10.5523/bris.3h91syskeag572hl6tvuovwv4d
 and
 http://dx.doi.org/10.5523/bris.2g1n6qdydwa9u22shpxqzp0t8m
 
-However, we also release sparse annotation frames for all splits of VISOR (train/val/test) with the following structure:
+However, we also release sparse annotation frames for all splits of VISOR (train/val/test) with the following structure:<br>
 sparse <br>
 -- train<br>
 ---- P01<br>
@@ -82,18 +82,18 @@ We provide a mapping from these frames to the originally released rgb_frames in 
 
 As explained in Sec 2.1, we provide manually annotated sparse segmentations, at the rate of (roughly) 2 frames per action clip. We use JSON formatting annotations, one per video, with the following fields<br>
 *image*<br>
--- image_path: the folder and file name in the VISOR file structure. Note that this might not exactly match the EPIC-KITCHENS frame numbers (see Sec frame extraction for correspondences)<br>
--- name: image filename<br>
--- subsequence: Refer to Sec 2.1 where we define subsequences within videos with consistent set of entities. This field refers to the sequence number and is used for the VOS benchmark<br>
--- video: video filename - matches EPIC-KITCHENS-100 video file name<br>
+-- `image_path`: the folder and file name in the VISOR file structure. Note that this might not exactly match the EPIC-KITCHENS frame numbers (see Sec frame extraction for correspondences)<br>
+-- `name`: image filename<br>
+-- `subsequence`: Refer to Sec 2.1 where we define subsequences within videos with consistent set of entities. This field refers to the sequence number and is used for the VOS benchmark<br>
+-- `video`: video filename - matches EPIC-KITCHENS-100 video file name<br>
 *annotations* [one per mask]<br>
--- id: Unique mask ID<br>
--- name: open vocabulary entity name<br>
--- class_id: key for EPIC-KITCHENS class number reflecting closed vocabulary entity name (see Sec classes for correspondences)<br>
--- exhaustive: flag (y/n) to indicate whether all instances of the entity have been segmented. When 'n' is selected, background non-active instances of the same entity are present. We use 'inconclusive' when a consensus amongst annotators could not be found<br>
--- in_contact_object: [only for hand and on-hand gloves] this field offers one of several options: the ID of the object that the hand is in contact with in this frame, or hand-not-in-contact when the hand is not touching any mask, none-of-the-above when the hand is touching an object that is not segmented, or inconclusive when a consensus amongst annotators could not be found.<br>
--- on_which_hand: [only for gloves] indicating whether the glove is worn on a hand and which hand side is it. <br>
--- segments: polygon-based representation of each mask<br>
+-- `id`: Unique mask ID<br>
+-- `name`: open vocabulary entity name<br>
+-- `class_id`: key for EPIC-KITCHENS class number reflecting closed vocabulary entity name (see Sec classes for correspondences)<br>
+-- `exhaustive`: flag (y/n) to indicate whether all instances of the entity have been segmented. When 'n' is selected, background non-active instances of the same entity are present. We use 'inconclusive' when a consensus amongst annotators could not be found<br>
+-- `in_contact_object`: [only for hand and on-hand gloves] this field offers one of several options: the ID of the object that the hand is in contact with in this frame, or hand-not-in-contact when the hand is not touching any mask, none-of-the-above when the hand is touching an object that is not segmented, or inconclusive when a consensus amongst annotators could not be found.<br>
+-- `on_which_hand`: [only for gloves] indicating whether the glove is worn on a hand and which hand side is it. <br>
+-- `segments`: polygon-based representation of each mask<br>
 
 ## Interpolations - Dense Annotations
 
@@ -101,8 +101,8 @@ As explained in Sec 2.4, two consecutive ground truth segmentations are used to 
 
 In addition to the flags above, additional flags are available in interpolations:<br>
 
--- type: 1: start/end ground-truth frames, that have been filtered to only include entities that are present at both the start and end frames. These are replicated here. 0: interpolated frames<br>
--- interpolation: unique incremental ID for each interpolation in the dataset
+-- `type`: 1: start/end ground-truth frames, that have been filtered to only include entities that are present at both the start and end frames. These are replicated here. 0: interpolated frames<br>
+-- i`nterpolation`: unique incremental ID for each interpolation in the dataset
 
 ## Frame Extraction (frame_mapping.json)
 
