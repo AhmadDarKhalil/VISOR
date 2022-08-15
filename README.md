@@ -18,25 +18,25 @@ You'll also get a `data_mapping.csv` file in the `output_directory`, this file m
 
 
 
-# Details on VISOR datset
+# Details on EPIC-KITCHENS VISOR dataset
 
 
 ## Authors
 Ahmad Darkhalil* (1) <br>
-Dandan Shan* (2)
-Bin Zhu* (1)
-Jian Ma* (1)
-Amlan Kar (3)
-Richard Higgins (2)
-Sanja Fidler (3)
-David Fouhey (2)
-Dima Damen (1)
+Dandan Shan* (2)<br>
+Bin Zhu* (1)<br>
+Jian Ma* (1)<br>
+Amlan Kar (3)<br>
+Richard Higgins (2)<br>
+Sanja Fidler (3)<br>
+David Fouhey (2)<br>
+Dima Damen (1)<br>
 
-1: University of Bristol, United Kingdom
-2: University of Michigan, United States
-3: University of Toronto, Canada
+1: University of Bristol, United Kingdom <br>
+2: University of Michigan, United States <br>
+3: University of Toronto, Canada <br>
 
-Release Date: Aug 2022
+### Release Date: Aug 2022
 
 ## Citing
 When using VISOR annotations, kindly reference both the annotations paper (VISOR) and the EPIC-KITCHENS-100 paper as follows:
