@@ -12,7 +12,7 @@ json_files_path = '../json_files'
 output_directory ='../outputs'
 output_resolution= (854,480)
 is_overlay=False
-images_root_directory = '../Images'
+rgb_frames = '../Images'
 generate_video=True
 
-folder_of_jsons_to_masks(json_files_path, output_directory,is_overlay=is_overlay,images_root_directory=images_root_directory,output_resolution=output_resolution,generate_video=generate_video)
+folder_of_jsons_to_masks(json_files_path, output_directory,is_overlay=is_overlay,images_root_directory=rgb_frames,output_resolution=output_resolution,generate_video=generate_video)
